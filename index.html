@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Basic Dashboards</title>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                </li>
+                <li>
+                    <a href="#">Files</a>
+                </li>
+                <li>
+                    <a href="#">Teams</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="storage">
+            <div class="title">
+                <i class="fa-solid fa-cloud"></i>
+                Storage
+                <div class="percent">60%</div>
+            </div>
+            <div class="bar">
+                <span style="width: 60%;"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="inner">
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <label>
+                    <i class="fa fa-search">
+                    </i>
+                </label>
+            </div>
+            <div class="inner-box">
+                <div class="content-title">
+                    <h4>Projects</h4>
+                    <a href="#">View All
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="projects">
+                    <a href="#" class="box active">
+                        <span class="box-top">
+                            <i class="fa fa-folder"></i>
+                            <span class="box-shared">
+                                <img src="https://picsum.photos/200/300" alt="Paylaşan kişi fotoğrafları">
+                                <img src="https://picsum.photos/200/300" alt="Paylaşan kişi fotoğrafları">
+                                <img src="https://picsum.photos/200/300" alt="Paylaşan kişi fotoğrafları">
+                            </span>
+                        </span>
+                        <span class="box-title">
+                            <span class="name">Nucleus Tech</span>
+                            <span class="task">16 tasks</span>
+                        </span>
+                        <span class="box-bar">
+                            <span style="width: 70%;" title="70%"></span>
+                        </span>
+                    </a>
+                    <a href="#" class="box active">
+                        <span class="box-top">
+                            <i class="fa fa-folder-plus"></i>
+                            <span class="box-shared">
+                                <img src="https://picsum.photos/200/300" alt="Paylaşan kişi fotoğrafları">
+                                <img src="https://picsum.photos/200/300" alt="Paylaşan kişi fotoğrafları">
+                            </span>
+                        </span>
+                        <span class="box-title">
+                            <span class="name">Summit AI</span>
+                            <span class="task">5 tasks</span>
+                        </span>
+                        <span class="box-bar">
+                            <span style="width: 90%;" title="90%"></span>
+                        </span>
+                    </a>
+                    <a href="#" class="box empty">
+                        <i class="fa fa-plus"></i>
+                        <span class="text">Add New Project</span>
+                    </a>
+                </div>
+            </div>
+            <div class="inner-box">
+                <div class="content-title">
+                    <h4>Recent</h4>
+                    <a href="#">View All
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="recents">
+                    <ul>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-folder"></i>
+                                Design Assets
+                            </a>
+                            <div class="visibility">Only You
+                            </div>
+                            <div class="size">
+                                2.4 GB
+                            </div>
+                            <a href="#" class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-folder"></i>
+                                Team Photos
+                            </a>
+                            <div class="visibility">5 Members
+                            </div>
+                            <div class="size">1.9 GB
+                            </div>
+                            <a href="#" class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-music icon"></i>
+                                Levitating.mp3
+                            </a>
+                            <div class="visibility">Only You
+                            </div>
+                            <div class="size">2.9 MB
+                            </div>
+                            <a href="#" class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-microphone icon"></i>
+                                Never.mp3
+                            </a>
+                            <div class="visibility">5 Members
+                            </div>
+                            <div class="size">5.8 MB
+                            </div>
+                            <a href="#" class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="https://picsum.photos/200" alt="Picsum Foto'dan rastgele seçim">
+                                Picsum Photos
+                            </a>
+                            <div class="visibility">Only You
+                            </div>
+                            <div class="size">516.8 KB
+                            </div>
+                            <a href="#" class="more">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightbar">
+            <div class="bar">
+                <a class="bar active" href="#">
+                    <span class="bar-notification">
+                        <i class="fa-regular fa-bell"></i>
+                    </span>
+                    <span class="bar-profile">
+                        <img src="https://picsum.photos/48/48" alt="Rightbar profil fotoğrafı">
+                    </span>
+                    <span class="bar-profile-name">
+                        <p>
+                            Burak
+                        </p>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </a>
+
+            </div>
+
+            <div class="activities-section">
+                <div class="header">
+                    <h4>Activities</h4>
+                </div>
+                <div class="activity-1">
+
+                    <div class="content">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <p class="not-1"><b>David Lee</b> shared 2 illustrations
+                            in the <b>Nucleus Tech</b> project.</p>
+                        <p class="not-2">1h</p>
+                    </div>
+
+                    <img src="https://picsum.photos/48/48" alt="Rightbar paragraf resmi">
+
+                    <img class="images-2" src="https://picsum.photos/48/48" alt="Rightbar paragraf resmi">
+                </div>
+                <div class="activity-2">
+                    <div class="content">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <p class="not-1"><b>Brian Hallen</b> replied to your comment.</p>
+                        <p class="not-2">2h</p>
+                    </div>
+                </div>
+                <div class="activity-3">
+                    <div class="content">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <p class="not-1"><b>David Lee</b> added <b>Robin Bright</b> to he <b>Summit AI</b> project</p>
+                        <p class="not-2">4h</p>
+                    </div>
+                </div>
+                <div class="activity-4">
+                    <div class="content">
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <p class="not-1"><b>You</b> deleted 20 files from the <b>Summit AI</b> project</p>
+                        <p class="not-2">8h</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="refer-friend-card">
+                <h4 class="card">Refer a friend!</h4>
+                <span class="text">And get awesome rewards</span>
+                <img class="photos" src="https://picsum.photos/167/196" alt="Rightbar alt fotoğrafı">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
